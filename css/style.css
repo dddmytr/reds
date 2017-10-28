@@ -238,6 +238,58 @@ body {
     color: #ffffff;
     text-transform: uppercase; }
 
+/*ABOUT PAGES*/
+.breadcrumb > li + li:before {
+  color: #2759ae;
+  content: ">>";
+  padding: 0 5px; }
+
+.left-menu {
+  margin-bottom: 35px; }
+  .left-menu .nav-tabs {
+    border: none; }
+    .left-menu .nav-tabs li {
+      border-bottom: 2px solid #ffffff; }
+      .left-menu .nav-tabs li.active a {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: #09b7db;
+        color: #ffffff; }
+      .left-menu .nav-tabs li .dropdown-menu {
+        position: relative;
+        width: 99.8%;
+        box-shadow: none;
+        border-right: 1px solid #fdfdfc;
+        border-left: 1px solid #fdfdfc; }
+        .left-menu .nav-tabs li .dropdown-menu li.active-link a {
+          color: #ff7200; }
+        .left-menu .nav-tabs li .dropdown-menu li a {
+          background-color: #fff;
+          color: #2759ae;
+          font-size: 14px; }
+      .left-menu .nav-tabs li a {
+        color: #ffffff;
+        background-color: #2759ae;
+        font-size: 16px;
+        border-radius: 0; }
+        .left-menu .nav-tabs li a:hover, .left-menu .nav-tabs li a:focus {
+          background-color: #09b7db; }
+
+.callback-block {
+  margin-bottom: 25px; }
+  .callback-block .col-sm-4 img {
+    margin: auto; }
+  .callback-block .col-sm-8 {
+    color: #2759ae;
+    font-size: 18px;
+    padding-left: 0; }
+  .callback-block .btn-back {
+    background-color: #ff7200;
+    color: #ffffff;
+    margin: 15px auto 10px;
+    display: block; }
+
 /*FOOTER*/
 .footer-push {
   height: 520px; }
@@ -292,6 +344,12 @@ body {
   .bottom-block .bottom-contact {
     font-size: 16px; }
 
+  .callback-block .col-sm-8 {
+    font-size: 16px; }
+
+  .callback-block .btn-back {
+    font-size: 12px; }
+
   .wrap {
     margin-bottom: -440px; }
 
@@ -343,6 +401,12 @@ body {
 
   .bottom-block .block-modal .call-button {
     font-size: 12px; }
+
+  .callback-block .col-sm-8 {
+    font-size: 12px; }
+
+  .callback-block .btn-back {
+    font-size: 10px; }
 
   .wrap {
     margin-bottom: -380px; }
@@ -410,6 +474,12 @@ body {
     font-size: 18px;
     display: block;
     margin: 0 auto 15px; }
+
+  .callback-block .col-sm-8 {
+    font-size: 18px; }
+
+  .callback-block .btn-back {
+    font-size: 16px; }
 
   .footer .footer-info .footer-inner {
     font-size: 12px; }

@@ -345,6 +345,74 @@ body{
     }
 }
 
+/*ABOUT PAGES*/
+.breadcrumb > li + li:before {
+    color: $blue;
+    content: ">>";
+    padding: 0 5px;
+}
+.left-menu{
+    margin-bottom: 35px;
+    .nav-tabs{
+        border: none;
+        li{
+            border-bottom: 2px solid #ffffff;
+            &.active a{
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                background-color: $lightBlue;
+                color: #ffffff;
+            }
+            .dropdown-menu{
+                position: relative;
+                width: 99.8%;
+                box-shadow: none;
+                border-right: 1px solid #fdfdfc;
+                border-left: 1px solid #fdfdfc;
+                li{
+                    &.active-link a{
+                        color: $orange;
+                    }
+                    a{
+                        background-color: #fff;
+                        color: $blue;
+                        font-size: 14px;
+                    }
+                }
+            }
+            a{
+                color: #ffffff;
+                background-color: $blue;
+                font-size: 16px;
+                border-radius: 0;
+                &:hover, &:focus{
+                    background-color: $lightBlue;
+                }
+            }
+        }
+    }
+}
+.callback-block{
+    margin-bottom: 25px;
+    .col-sm-4{
+        img{
+            margin: auto;
+        }
+    }
+    .col-sm-8{
+        color: $blue;
+        font-size: 18px;
+        padding-left: 0;
+    }
+    .btn-back{
+        background-color: $orange;
+        color: #ffffff;
+        margin: 15px auto 10px;
+        display: block;
+    }
+}
+
 
 /*FOOTER*/
 .footer-push{
@@ -409,6 +477,12 @@ body{
     .bottom-block .bottom-contact{
         font-size: 16px;
     }
+    .callback-block .col-sm-8{
+        font-size: 16px;
+    }
+    .callback-block .btn-back{
+        font-size: 12px;
+    }
     .wrap{
         margin-bottom: -440px;
     }
@@ -463,6 +537,12 @@ body{
     }
     .bottom-block .block-modal .call-button{
         font-size: 12px;
+    }
+    .callback-block .col-sm-8{
+        font-size: 12px;
+    }
+    .callback-block .btn-back{
+        font-size: 10px;
     }
     .wrap{
         margin-bottom: -380px;
@@ -534,6 +614,12 @@ body{
         font-size: 18px;
         display: block;
         margin: 0 auto 15px;
+    }
+    .callback-block .col-sm-8{
+        font-size: 18px;
+    }
+    .callback-block .btn-back{
+        font-size: 16px;
     }
     .footer .footer-info .footer-inner{
         font-size: 12px;

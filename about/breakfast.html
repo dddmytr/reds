@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Солнечный остров</title>
+
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="wrap">
+
+    <header class="header">
+        <div class="header-inner container">
+            <div class="row">
+                <div class="logo col-sm-2">
+                    <a href="/">
+                        <img src="../images/default/logo.png" alt="На главную" class="img-responsive">
+                    </a>
+                </div><!--logo-->
+                <div class="header-contact div col-sm-4 text-center">
+                    <span class="top-contact">Солнечный остров</span>
+                    <span class="middle-contact">Центр по уходу за детьми</span>
+                    Детский сад в районе автовокзала
+                    в 5-ти минутах от метро Чкаловская
+                </div><!--header-contact-->
+                <div class="header-phone col-sm-3 text-right">
+                    <div class="row">
+                        <div class="col-sm-4 hidden-xs">
+                            <img src="../images/default/phone.png" alt="Icon" class="img-responsive">
+                        </div>
+                        <div class="col-sm-8">
+                            +7 343 385 67 59 <br>
+                            +7 922 155 54 22 <br>
+                            +7 922 156 27 07
+                        </div>
+                    </div>
+                    <div class="address">
+                        Екатеринбург, ул. Союзная 27
+                    </div>
+                </div><!--header-phone-->
+                <div class="header-backcall col-sm-2 col-sm-offset-1">
+                    <button type="button" class="back-button" data-toggle="modal" data-target="#myModal">
+                        <img src="../images/default/backcall.png" alt="заказать звонок" class="img-responsive">
+                    </button>
+
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Заказать звонок</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="name">ФИО *</label>
+                                            <input type="text" class="form-control" id="name" placeholder="ФИО">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="phone">Телефон</label>
+                                            <input type="text" class="form-control" id="phone" placeholder="Контактный телефон">
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" checked> Согласен с условиями обработки персональных данных
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Заказать звонок</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--header-backcall-->
+            </div>
+        </div>
+    </header><!--header-->
+
+    <div class="top-menu">
+        <div class="top-menu-inner container">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav nav-justified">
+                            <li><a href="#">Главная</a></li>
+                            <li class="active"><a href="#">О садике</a></li>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Фотогалерея</a></li>
+                            <li><a href="#">Статьи</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+
+    </div><!--top-menu-->
+
+    <section class="main-content">
+        <div class="content-wrap container">
+            <div class="breadcrumbs-block">
+                <ul class="breadcrumb">
+                    <li><a href="/">Главная</a> </li>
+                    <li><a href="/about/index.html">О садике</a> <span class="divider"></span></li>
+                    <li class="active">Программы обучения</li>
+                </ul>
+            </div><!--breadcrumbs-block-->
+            <div class="row">
+                <aside class="sidebar-left col-sm-3">
+                    <nav class="left-menu">
+                        <ul class="nav nav-tabs nav-stacked">
+                            <li class="active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Программа обучения <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Ясли</a></li>
+                                    <li class="active-link"><a href="#">1 младшая группа</a></li>
+                                    <li><a href="#">2 младшая группа</a></li>
+                                    <li><a href="#">Средняя группа</a></li>
+                                    <li><a href="#">Старшая группа</a></li>
+                                    <li><a href="#">Подготовительная к школе</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Режим дня</a>
+                            </li>
+                            <li>
+                                <a href="#">Наше меню</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Наши занятия <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Английский язык</a></li>
+                                    <li><a href="#">Хореография</a></li>
+                                    <li><a href="#">Танцы</a></li>
+                                    <li><a href="#">Строевая подготовка</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Оздоровление</a>
+                            </li>
+                            <li>
+                                <a href="#">Прогулки</a>
+                            </li>
+                            <li>
+                                <a href="#">Праздниеки</a>
+                            </li>
+                            <li>
+                                <a href="#">Наши сотрудники</a>
+                            </li>
+                            <li>
+                                <a href="#">Для родителей</a>
+                            </li>
+                        </ul>
+                    </nav><!--left-menu-->
+
+                    <div class="callback-block">
+                        <div class="row">
+                            <div class="col-sm-4 hidden-xs">
+                                <img src="../images/default/phone.png" alt="Phone" class="img-responsive">
+                            </div>
+                            <div class="col-sm-8 text-center">
+                                +7 343 385 67 59 <br>
+                                +7 922 155 54 22 <br>
+                                +7 922 156 27 07
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-back btn-lg" data-toggle="modal" data-target="#excursion">
+                            Записаться на просмотр
+                        </button>
+                    </div>
+
+                </aside><!--sidebar-left-->
+                <section class="content col-sm-9"></section><!--content-->
+            </div><!--row-->
+        </div><!--content-wrap-->
+
+        <div class="footer-push"></div>
+    </section><!--main-content-->
+
+</div><!--wrap-->
+
+<footer class="footer">
+    <div class="footer-image">
+        <div class="footer-image-inner container">
+            <img src="../images/default/bottom.png" alt="Bottom" class="img-responsive">
+        </div>
+    </div><!--footer-image-->
+
+    <div class="footer-info">
+        <div class="footer-inner text-center">
+            Мы получаем и обрабатываем персональные данные пользователей нашего сайта в соответствии с <a
+                href="#">официальной политикой</a>. <br>
+            Если Вы не даете согласие на обработку персональных данных, просто покиньте сайт. <br>
+            <span>&copy; Солнечный остров 2017</span>
+        </div>
+    </div><!--footer-info-->
+</footer><!--footer-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../dist/js/bootstrap.min.js"></script>
+
+<!-- Modal -->
+<div class="modal fade" id="excursion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="excursionLabel">Заказать экскурсию</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="name1">ФИО *</label>
+                        <input type="text" class="form-control" id="name1" placeholder="ФИО">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone1">Телефон</label>
+                        <input type="text" class="form-control" id="phone1" placeholder="Контактный телефон">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" checked> Согласен с условиями обработки персональных данных
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Заказать экскурсию</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Заказать звонок</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="name">ФИО *</label>
+                        <input type="text" class="form-control" id="name" placeholder="ФИО">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Контактный телефон">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" checked> Согласен с условиями обработки персональных данных
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Заказать звонок</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
