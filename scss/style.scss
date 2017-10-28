@@ -393,6 +393,13 @@ body{
         }
     }
 }
+.content{
+    h1{
+        color: $blue;
+        font-size: 36px;
+        font-weight: bold;
+    }
+}
 .callback-block{
     margin-bottom: 25px;
     .col-sm-4{
@@ -427,23 +434,23 @@ body{
         .panel-collapse{
             .panel-body{
                 padding: 0;
-                .nice-table{
-                    margin-bottom: 0;
-                    tbody{
-                        tr{
-                            &:nth-child(odd){
-                                background-color: $yellow;
-                            }
-                            &:nth-child(even){
-                                background-color: #fdf6c7;
-                            }
-                            td{
-                                font-size: 20px;
-                                border-top: none;
-                            }
-                        }
-                    }
-                }
+            }
+        }
+    }
+}
+.nice-table{
+    margin-bottom: 0;
+    tbody{
+        tr{
+            &:nth-child(odd){
+                background-color: $yellow;
+            }
+            &:nth-child(even){
+                background-color: #fdf6c7;
+            }
+            td{
+                font-size: 20px;
+                border-top: none;
             }
         }
     }

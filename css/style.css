@@ -276,6 +276,11 @@ body {
         .left-menu .nav-tabs li a:hover, .left-menu .nav-tabs li a:focus {
           background-color: #09b7db; }
 
+.content h1 {
+  color: #2759ae;
+  font-size: 36px;
+  font-weight: bold; }
+
 .callback-block {
   margin-bottom: 25px; }
   .callback-block .col-sm-4 img {
@@ -299,15 +304,16 @@ body {
       font-size: 20px; }
   #accordion .panel .panel-collapse .panel-body {
     padding: 0; }
-    #accordion .panel .panel-collapse .panel-body .nice-table {
-      margin-bottom: 0; }
-      #accordion .panel .panel-collapse .panel-body .nice-table tbody tr:nth-child(odd) {
-        background-color: #fde74c; }
-      #accordion .panel .panel-collapse .panel-body .nice-table tbody tr:nth-child(even) {
-        background-color: #fdf6c7; }
-      #accordion .panel .panel-collapse .panel-body .nice-table tbody tr td {
-        font-size: 20px;
-        border-top: none; }
+
+.nice-table {
+  margin-bottom: 0; }
+  .nice-table tbody tr:nth-child(odd) {
+    background-color: #fde74c; }
+  .nice-table tbody tr:nth-child(even) {
+    background-color: #fdf6c7; }
+  .nice-table tbody tr td {
+    font-size: 20px;
+    border-top: none; }
 
 /*FOOTER*/
 .footer-push {
