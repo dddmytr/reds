@@ -290,6 +290,25 @@ body {
     margin: 15px auto 10px;
     display: block; }
 
+#accordion {
+  margin-bottom: 25px; }
+  #accordion .panel .panel-heading {
+    background-color: #2759ae; }
+    #accordion .panel .panel-heading .panel-title a {
+      color: #ffffff;
+      font-size: 20px; }
+  #accordion .panel .panel-collapse .panel-body {
+    padding: 0; }
+    #accordion .panel .panel-collapse .panel-body .nice-table {
+      margin-bottom: 0; }
+      #accordion .panel .panel-collapse .panel-body .nice-table tbody tr:nth-child(odd) {
+        background-color: #fde74c; }
+      #accordion .panel .panel-collapse .panel-body .nice-table tbody tr:nth-child(even) {
+        background-color: #fdf6c7; }
+      #accordion .panel .panel-collapse .panel-body .nice-table tbody tr td {
+        font-size: 20px;
+        border-top: none; }
+
 /*FOOTER*/
 .footer-push {
   height: 520px; }

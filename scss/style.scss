@@ -412,6 +412,42 @@ body{
         display: block;
     }
 }
+#accordion{
+    margin-bottom: 25px;
+    .panel{
+        .panel-heading{
+            background-color: $blue;
+            .panel-title{
+                a{
+                    color: #ffffff;
+                    font-size: 20px;
+                }
+            }
+        }
+        .panel-collapse{
+            .panel-body{
+                padding: 0;
+                .nice-table{
+                    margin-bottom: 0;
+                    tbody{
+                        tr{
+                            &:nth-child(odd){
+                                background-color: $yellow;
+                            }
+                            &:nth-child(even){
+                                background-color: #fdf6c7;
+                            }
+                            td{
+                                font-size: 20px;
+                                border-top: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 /*FOOTER*/

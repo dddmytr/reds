@@ -50,35 +50,6 @@
                     <button type="button" class="back-button" data-toggle="modal" data-target="#myModal">
                         <img src="../images/default/backcall.png" alt="заказать звонок" class="img-responsive">
                     </button>
-
-                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Заказать звонок</h4>
-                                </div>
-                                <div class="modal-body">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="name">ФИО *</label>
-                                            <input type="text" class="form-control" id="name" placeholder="ФИО">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="phone">Телефон</label>
-                                            <input type="text" class="form-control" id="phone" placeholder="Контактный телефон">
-                                        </div>
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox" checked> Согласен с условиями обработки персональных данных
-                                            </label>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">Заказать звонок</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div><!--header-backcall-->
             </div>
         </div>
@@ -128,7 +99,7 @@
                 <aside class="sidebar-left col-sm-3">
                     <nav class="left-menu">
                         <ul class="nav nav-tabs nav-stacked">
-                            <li class="active">
+                            <li>
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                     Программа обучения <b class="caret"></b>
                                 </a>
@@ -144,7 +115,7 @@
                             <li>
                                 <a href="#">Режим дня</a>
                             </li>
-                            <li>
+                            <li  class="active">
                                 <a href="#">Наше меню</a>
                             </li>
                             <li>
@@ -193,7 +164,252 @@
                     </div>
 
                 </aside><!--sidebar-left-->
-                <section class="content col-sm-9"></section><!--content-->
+                <section class="content col-sm-9">
+
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        День 1
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped nice-table">
+                                            <tbody>
+                                                <tr>
+                                                    <td>1-й завтрак</td>
+                                                    <td>Каша пшенная, Хлеб с маслом, Какао с молоком</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2-й завтрак</td>
+                                                    <td>Яблоко</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Обед</td>
+                                                    <td>Щи, Пюре картофельное с курицей, Хлеб, Компот</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Полдник</td>
+                                                    <td>Кефир, Печенье</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ужин</td>
+                                                    <td>Макароны с сыром, Хлеб, Чай</td>
+                                                </tr>
+                                            </tbody>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--panel-default-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        День 2
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped nice-table">
+                                            <tbody>
+                                            <tr>
+                                                <td>1-й завтрак</td>
+                                                <td>Каша пшенная, Хлеб с маслом, Какао с молоком</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2-й завтрак</td>
+                                                <td>Яблоко</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Обед</td>
+                                                <td>Щи, Пюре картофельное с курицей, Хлеб, Компот</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Полдник</td>
+                                                <td>Кефир, Печенье</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ужин</td>
+                                                <td>Макароны с сыром, Хлеб, Чай</td>
+                                            </tr>
+                                            </tbody>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--panel-default-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        День 3
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped nice-table">
+                                            <tbody>
+                                            <tr>
+                                                <td>1-й завтрак</td>
+                                                <td>Каша пшенная, Хлеб с маслом, Какао с молоком</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2-й завтрак</td>
+                                                <td>Яблоко</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Обед</td>
+                                                <td>Щи, Пюре картофельное с курицей, Хлеб, Компот</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Полдник</td>
+                                                <td>Кефир, Печенье</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ужин</td>
+                                                <td>Макароны с сыром, Хлеб, Чай</td>
+                                            </tr>
+                                            </tbody>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--panel-default-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        День 4
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped nice-table">
+                                            <tbody>
+                                            <tr>
+                                                <td>1-й завтрак</td>
+                                                <td>Каша пшенная, Хлеб с маслом, Какао с молоком</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2-й завтрак</td>
+                                                <td>Яблоко</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Обед</td>
+                                                <td>Щи, Пюре картофельное с курицей, Хлеб, Компот</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Полдник</td>
+                                                <td>Кефир, Печенье</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ужин</td>
+                                                <td>Макароны с сыром, Хлеб, Чай</td>
+                                            </tr>
+                                            </tbody>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--panel-default-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        День 5
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped nice-table">
+                                            <tbody>
+                                            <tr>
+                                                <td>1-й завтрак</td>
+                                                <td>Каша пшенная, Хлеб с маслом, Какао с молоком</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2-й завтрак</td>
+                                                <td>Яблоко</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Обед</td>
+                                                <td>Щи, Пюре картофельное с курицей, Хлеб, Компот</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Полдник</td>
+                                                <td>Кефир, Печенье</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ужин</td>
+                                                <td>Макароны с сыром, Хлеб, Чай</td>
+                                            </tr>
+                                            </tbody>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--panel-default-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSix">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        День 6
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped nice-table">
+                                            <tbody>
+                                            <tr>
+                                                <td>1-й завтрак</td>
+                                                <td>Каша пшенная, Хлеб с маслом, Какао с молоком</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2-й завтрак</td>
+                                                <td>Яблоко</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Обед</td>
+                                                <td>Щи, Пюре картофельное с курицей, Хлеб, Компот</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Полдник</td>
+                                                <td>Кефир, Печенье</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ужин</td>
+                                                <td>Макароны с сыром, Хлеб, Чай</td>
+                                            </tr>
+                                            </tbody>
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--panel-default-->
+                    </div><!--panel-group #accordion-->
+
+                </section><!--content-->
             </div><!--row-->
         </div><!--content-wrap-->
 
