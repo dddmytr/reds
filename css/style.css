@@ -107,6 +107,7 @@ body {
           color: #ffffff; }
 
 /*MAIN-CONTENT*/
+/*FRONT PAGE*/
 .slider {
   margin-bottom: 25px; }
 
@@ -177,25 +178,65 @@ body {
     .advance .col-sm-3 p {
       font-size: 16px; }
 
-.reviews .review-carousel {
-  position: relative; }
-  .reviews .review-carousel .slick-arrow {
-    background-color: transparent;
-    border: none;
-    border-radius: 0; }
-  .reviews .review-carousel .slick-prev {
-    position: absolute;
-    top: 30%;
-    left: 35px;
-    z-index: 1000; }
-  .reviews .review-carousel .slick-next {
-    position: absolute;
-    top: 30%;
-    right: 45px;
-    z-index: 1000; }
-  .reviews .review-carousel p {
-    color: #ff7200;
+.reviews {
+  margin-bottom: 25px; }
+  .reviews .review-carousel {
+    position: relative; }
+    .reviews .review-carousel .slick-arrow {
+      background-color: transparent;
+      border: none;
+      border-radius: 0; }
+    .reviews .review-carousel .slick-prev {
+      position: absolute;
+      top: 30%;
+      left: 35px;
+      z-index: 1000; }
+    .reviews .review-carousel .slick-next {
+      position: absolute;
+      top: 30%;
+      right: 45px;
+      z-index: 1000; }
+    .reviews .review-carousel p {
+      color: #ff7200;
+      font-size: 18px; }
+
+.front-text-area {
+  font-size: 18px; }
+
+.bottom-block {
+  margin-bottom: 25px; }
+  .bottom-block h3 {
+    color: #2759ae;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px; }
+  .bottom-block .bottom-contact {
+    margin-bottom: 15px;
+    color: #2759ae;
     font-size: 18px; }
+    .bottom-block .bottom-contact img {
+      margin-top: 10px; }
+  .bottom-block .bottom-address {
+    color: #241867;
+    font-size: 18px;
+    margin-bottom: 15px; }
+  .bottom-block .social-block {
+    margin-bottom: 25px; }
+    .bottom-block .social-block .row .col-sm-4 {
+      display: flex; }
+      .bottom-block .social-block .row .col-sm-4 a {
+        margin-right: 7px; }
+        .bottom-block .social-block .row .col-sm-4 a:last-child {
+          margin-right: 0; }
+  .bottom-block .block-modal .ex-button {
+    background-color: #2759ae;
+    color: #ffffff;
+    text-transform: uppercase; }
+  .bottom-block .block-modal .call-button {
+    background-color: #ff7200;
+    color: #ffffff;
+    text-transform: uppercase; }
 
 /*FOOTER*/
 .footer-push {
@@ -245,6 +286,12 @@ body {
   .program .col-sm-2 a h4 {
     font-size: 16px; }
 
+  .bottom-block h3 {
+    font-size: 22px; }
+
+  .bottom-block .bottom-contact {
+    font-size: 16px; }
+
   .wrap {
     margin-bottom: -440px; }
 
@@ -284,6 +331,18 @@ body {
 
   .advance .col-sm-3 p {
     font-size: 11px; }
+
+  .bottom-block h3 {
+    font-size: 16px; }
+
+  .bottom-block .bottom-contact {
+    font-size: 11px; }
+
+  .bottom-block .block-modal .ex-button {
+    font-size: 12px; }
+
+  .bottom-block .block-modal .call-button {
+    font-size: 12px; }
 
   .wrap {
     margin-bottom: -380px; }
@@ -334,6 +393,23 @@ body {
 
   .advance .col-sm-3 p {
     font-size: 16px; }
+
+  .bottom-phone {
+    font-size: 18px;
+    text-align: center; }
+
+  .bottom-block .bottom-address {
+    font-size: 16px; }
+
+  .bottom-block .block-modal .ex-button {
+    font-size: 18px;
+    display: block;
+    margin: 0 auto 15px; }
+
+  .bottom-block .block-modal .call-button {
+    font-size: 18px;
+    display: block;
+    margin: 0 auto 15px; }
 
   .footer .footer-info .footer-inner {
     font-size: 12px; }

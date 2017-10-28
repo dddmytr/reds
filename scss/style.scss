@@ -165,6 +165,8 @@ body{
 }
 
 /*MAIN-CONTENT*/
+
+/*FRONT PAGE*/
 .slider{
     margin-bottom: 25px;
 }
@@ -264,6 +266,7 @@ body{
     }
 }
 .reviews{
+    margin-bottom: 25px;
     .review-carousel{
         position: relative;
         .slick-arrow{
@@ -286,6 +289,58 @@ body{
         p{
             color: $orange;
             font-size: 18px;
+        }
+    }
+}
+.front-text-area{
+    font-size: 18px;
+}
+.bottom-block{
+    margin-bottom: 25px;
+    h3{
+        color: $blue;
+        font-size: 26px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .bottom-contact{
+        margin-bottom: 15px;
+        color: $blue;
+        font-size: 18px;
+        img{
+            margin-top: 10px;
+        }
+    }
+    .bottom-address{
+        color: $strongBlue;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .social-block{
+        margin-bottom: 25px;
+        .row{
+            .col-sm-4{
+                display: flex;
+                a{
+                    margin-right: 7px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .block-modal{
+        .ex-button{
+            background-color: $blue;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        .call-button{
+            background-color: $orange;
+            color: #ffffff;
+            text-transform: uppercase;
         }
     }
 }
@@ -348,6 +403,12 @@ body{
     .program .col-sm-2 a h4{
         font-size: 16px;
     }
+    .bottom-block h3{
+        font-size: 22px;
+    }
+    .bottom-block .bottom-contact{
+        font-size: 16px;
+    }
     .wrap{
         margin-bottom: -440px;
     }
@@ -390,6 +451,18 @@ body{
     }
     .advance .col-sm-3 p {
         font-size: 11px;
+    }
+    .bottom-block h3{
+        font-size: 16px;
+    }
+    .bottom-block .bottom-contact{
+        font-size: 11px;
+    }
+    .bottom-block .block-modal .ex-button{
+        font-size: 12px;
+    }
+    .bottom-block .block-modal .call-button{
+        font-size: 12px;
     }
     .wrap{
         margin-bottom: -380px;
@@ -444,6 +517,23 @@ body{
     }
     .advance .col-sm-3 p {
         font-size: 16px;
+    }
+    .bottom-phone{
+        font-size: 18px;
+        text-align: center;
+    }
+    .bottom-block .bottom-address{
+        font-size: 16px;
+    }
+    .bottom-block .block-modal .ex-button{
+        font-size: 18px;
+        display: block;
+        margin: 0 auto 15px;
+    }
+    .bottom-block .block-modal .call-button{
+        font-size: 18px;
+        display: block;
+        margin: 0 auto 15px;
     }
     .footer .footer-info .footer-inner{
         font-size: 12px;
