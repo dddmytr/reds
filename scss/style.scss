@@ -6,6 +6,7 @@ $yellow: #fde74c;
 $red: #ca3535;
 $green: #05b42b;
 
+
 @font-face {
     font-family: 'Pragmatica Book';
     src: url('../fonts/pragmatica/Pragmatica Book.eot');
@@ -351,6 +352,12 @@ body{
     content: ">>";
     padding: 0 5px;
 }
+.breadcrumb{
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 2px;
+}
 .left-menu{
     margin-bottom: 35px;
     .nav-tabs{
@@ -463,6 +470,7 @@ body{
         color: $blue;
         font-size: 36px;
         font-weight: bold;
+        margin-top: 5px;
     }
 }
 
